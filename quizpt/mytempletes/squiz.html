@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>question quiz</title>
+</head>
+<body>
+<form>
+<input type="hidden" name="qno" value="{{qno}}">
+    <h1>{{qnumber}}qno.{{question.question}}</h1>
+    <label>{{question.a}} <input type="radio" name="a" value="{{question.a}}"> </label><br>
+    <label>{{question.b}} <input type="radio" name="a" value="{{question.b}}"><br>
+    <label>{{question.c}} <input type="radio" name="a" value="{{question.c}}"><br>
+    <label>{{question.d}}  <input type="radio" name="a" value="{{question.d}}">
+        <input type="radio" value="0" name="a" checked style="visibility:hidden;">
+    <br><br>
+
+    <input type="submit" name="option" value="previous">
+    <input type="submit" name="option" value="next">
+
+</form>
+</body>
+</html>
